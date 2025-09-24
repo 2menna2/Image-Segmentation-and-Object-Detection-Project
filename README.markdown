@@ -2,6 +2,7 @@
 
 This project performs image segmentation and object detection using two approaches: U-Net with a ResNet34 encoder for segmentation and a simplified YOLOv1 model for object detection. It processes HEIC images, converts them to JPEG, generates segmentation masks, splits the dataset into train/validation/test sets, and trains both models for segmentation and detection tasks.
 ## Directory Structure
+```
 project/
 │
 ├── data/
@@ -25,6 +26,7 @@ project/
 ├── masks_to_yolo_labels.py
 ├── train_yolov1.py
 └── visualize_predictions.py
+```
 
 ## Project Structure
 - **Data Preparation**:
