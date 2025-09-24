@@ -1,0 +1,11 @@
+opencv-python
+pillow
+pillow-heif
+numpy
+tqdm
+torch
+torchvision
+albumentations
+segmentation-models-pytorch
+matplotlib
+shapely
